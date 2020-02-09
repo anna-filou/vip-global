@@ -1,0 +1,10 @@
+---
+# access via
+# {% for service in site.text.services %}
+# {{ service.img }}
+# {{ service.title }}
+# {{ service.text }}
+img: 
+title:  European-wide delivery
+text: From Germany to Poland, and Austria to the Czech Republic. For a full list of countries, [click here](google.com).
+---

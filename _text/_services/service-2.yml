@@ -1,0 +1,10 @@
+---
+# access via
+# {% for service in site.text.services %}
+# {{ service.img }}
+# {{ service.title }}
+# {{ service.text }}
+img: 
+title:  We ship all kinds of goods
+text: Doesn't matter if you're moving house or just need to transfer a big item once — we can do it anyway.
+---
