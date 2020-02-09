@@ -67,6 +67,10 @@ By having separate folders for each language (in this case de and en) we automat
 
 You probably noticed that there’s one more instance of `index.html` than there are instances of the rest of the pages. **The** `index.html` **in the root directory will dictate your website’s default language.** Meaning it will be a duplicate of the `index.html` in the en folder if you want the default language to be English.
 
+## Links
+To make links work right, provided pages are grouped into folders by langauge, the links have to look like this to work:
+`/{{ page.lang }}/page-name` instead of just `/page-name/`
+What this does, is tell the browser to direct the user to `page-name.html` WITHIN the same language folder (since every page has a `lang` attribute in its frontmatter.)
 
 ----------
 
