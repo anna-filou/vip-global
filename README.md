@@ -72,6 +72,9 @@ To make links work right, provided pages are grouped into folders by langauge, t
 `/{{ page.lang }}/page-name` instead of just `/page-name/`
 What this does, is tell the browser to direct the user to `page-name.html` WITHIN the same language folder (since every page has a `lang` attribute in its frontmatter.)
 
+## Change Language
+Say you are in an English page. The button than changes the language to German must be structured like `/de/{{ page.ref }}` where `ref` is the unique fron-matter ref of each page. That ensures that, upon clicking the "change language" button, the user is taken to the saem page in ther language of choice, instead of being taken back to the homepage no matter where they currently are on the site.  
+
 ----------
 
 So, I really wish this was helpful. Suggestions for improvement welcome~ Just let me know how it went on [Twitter](https://twitter.com/that__anna).
